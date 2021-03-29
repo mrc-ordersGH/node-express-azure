@@ -5,15 +5,5 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: |
-  displayName: 'Install Node.js'
 
-- script: |
-  displayName: 'npm install'
-
-- script: |
-  displayName: 'npm test'
-
-- script: |
-  displayName: 'Publish artifacts: drop'
   
